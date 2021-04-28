@@ -1,0 +1,9 @@
+.pagination {
+    display: inline-flex !important;
+}
+.pagination .page-item {
+    display: inline-block !important;
+}
+.pagination-centered {
+    text-align: center !important;
+}

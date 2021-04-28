@@ -1,0 +1,41 @@
+body {
+    background-color: white !important;
+}
+.table-dark {
+    --bs-table-bg: white;
+    --bs-table-striped-bg: #9cbedf;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #9cbedf;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #9cbedf;
+    --bs-table-hover-color: #fff;
+    color: #000;
+    border-color: #373b3e;
+}
+
+.ngx-pagination li {
+    display: inline-block;
+}
+.ngx-pagination {
+    text-align: center;
+}
+.ngx-pagination .current {
+    background: #0c4783 !important;
+}
+.ngx-pagination li {
+    display: inline-block;
+    border: 1px solid #c5c5c5;
+    background: white;
+}
+.sidenav {
+    background-color: #c7ccd1 !important;
+}
+.sidenav-option{
+    color: #0c4783 !important;
+}
+.sidenav-option:hover {
+    color: black !important;
+}
+.navbar-toggler i {
+    color: white;
+}

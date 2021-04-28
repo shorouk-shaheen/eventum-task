@@ -1,0 +1,41 @@
+<div id="mySidenav" class="sidenav">
+  <a href="#" class="closebtn" (click)="closeNav()">&times;</a>
+  <img height="200px" src="https://www.finance-watch.org/wp-content/uploads/2019/06/Financer-Watch_Dashboard_Header-1920x1035.jpg" alt="">
+  <a class="sidenav-option" href="#">
+      <i class="fas fa-home"></i> Home </a>
+  <a class="sidenav-option" href="#">
+      <i class="fas fa-address-card"></i>About Us</a>
+  <a class="sidenav-option" href="#">
+      <i class="fas fa-clipboard-list"></i>Services</a>
+  <a class="sidenav-option" href="#">
+      <i class="fas fa-user-friends"></i>Users</a>
+  <a class="sidenav-option" href="#">
+          <i class="far fa-list-alt"></i>Terms & Conditions</a>
+  <a class="sidenav-option" href="#">
+          <i class="fas fa-sign-out-alt"></i>logout</a>
+</div>
+<nav class="navbar navbar-expand-sm">
+    <div class="container-fluid container">
+      <img class="logo mr-3" width="30" height="25" src="https://c0.klipartz.com/pngpicture/74/795/gratis-png-analitica-de-negocios-iconos-de-computadora-inteligencia-de-negocios-marketing.png" alt="logo">
+      <a class="navbar-brand" href="#">Dashboard</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item" (click)="openNav()">
+            <a class="nav-link active side-bar-icon" aria-current="page" href="#">
+                <i class="fas fa-bars"></i>More</a>
+          </li>
+        </ul>
+        <!-------------------------- TOGGLE BUTTON --------------------------------->
+        <button class="dark-mode btn mr-5" (click)="darkTheme()">Dark Theme</button>
+        <button class="light-mode btn btn-outline-primary ml-5" (click)="lightTheme()">Light Theme</button>
+        <!-- <div class="form-check form-switch">
+            <label class="dark-mode form-check-label" for="flexSwitchCheckDefault">dark mode</label>
+            <input (click)="changeTheme()" class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+            <label class="light-mode form-check-label" for="flexSwitchCheckDefault">light mode</label>
+        </div> -->
+      </div>
+    </div>
+  </nav>

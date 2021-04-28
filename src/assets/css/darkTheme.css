@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #cfcfcf !important;
+}
+.ngx-pagination {
+    text-align: center;
+}
+.ngx-pagination li {
+    display: inline-block;
+}
+.ngx-pagination .current {
+    background: #0c4783 !important;
+}
+.ngx-pagination li {
+    display: inline-block;
+    border: 1px solid #c5c5c5;
+    background: white;
+}
+.navbar-toggler {
+    background-color: white;
+}

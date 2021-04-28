@@ -24,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+          
             ],
             "scripts": []
           },
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "eventum-task"
+    }
+  },
+  "defaultProject": "eventum-task",
+  "cli": {
+    "analytics": false
+  }
 }
